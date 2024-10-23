@@ -59,7 +59,8 @@ function getLast(array) {
   }
 }
 let testArray = ['false', 'true', 'maybe'];
-console.log(getLast(testArray) === 'maybe'); // true
+console.log( getLast(testArray) );
+console.log( find('maybe', testArray) ); 
 
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
